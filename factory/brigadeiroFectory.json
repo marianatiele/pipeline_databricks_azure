@@ -1,0 +1,9 @@
+{
+	"name": "brigadeiroFectory",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0f516101-b7ed-4fdd-b5b5-123e758d2232",
+		"tenantId": "2a892461-2c92-457d-95ca-c466bf43aa36"
+	}
+}
