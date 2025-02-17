@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "brigadeiroFectory"
+		},
+		"databricks_datafectory_accessToken": {
+			"value": ""
+		},
+		"databricks_datafectory_properties_typeProperties_existingClusterId": {
+			"value": "0214-144309-4q7q1hyv"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
