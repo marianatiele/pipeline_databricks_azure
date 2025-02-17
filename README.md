@@ -20,6 +20,8 @@ No Azure Data Lake Gen2, foram armazenados tanto os dados brutos quanto os dados
   * Data Lake Gan 2 Azure
   * Databricks
   * Data Factory
+  * Scala
+  * Github
     
 
 
