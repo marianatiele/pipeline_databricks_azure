@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/maria_natiele@outlook.com/pipeline_databricks_azure/notebooks/inbound_to_bronze"
+				},
+				"linkedServiceName": {
+					"referenceName": "databricks_datafectory",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "ingestion-camada-Silver",
@@ -33,7 +40,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/maria_natiele@outlook.com/pipeline_databricks_azure/notebooks/Broze_to_Silver"
+				},
+				"linkedServiceName": {
+					"referenceName": "databricks_datafectory",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
